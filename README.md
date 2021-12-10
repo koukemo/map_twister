@@ -1,5 +1,7 @@
 # Map_Twister
 
+災害に特化した情報共有システム
+
 ## 導入
 
 ```bash
@@ -7,21 +9,25 @@ npm install
 npm install vue2-leaflet leaflet --save
 ```
 
+## 設定
+
+[src/boot/firebase.js](src/boot/firebase.js)の変更
+- `firebaseConfig` を自分の情報に変更
+
+### 設定のカスタマイズ
+
+[Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js)を参照
+
 ## 起動
 
 ```bash
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
+## プレビュー
 
-### Build the app for production
-```bash
-quasar build
-```
+<img src="figures/map_sample.png" width="700px"> <img src="figures/qwitter_sample.png" width="700px">
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+## 参考
+
+[EspiraMarvin/twitter-clone - GitHub](https://github.com/EspiraMarvin/twitter-clone)
