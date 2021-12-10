@@ -1,13 +1,14 @@
-# Qwitter (qwitter)
+# Map_Twister
 
+## 導入
 
-
-## Install the dependencies
 ```bash
 npm install
+npm install vue2-leaflet leaflet --save
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## 起動
+
 ```bash
 quasar dev
 ```
